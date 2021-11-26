@@ -1,0 +1,87 @@
+.navbarnav {
+  background-color: #264653;
+}
+.header {
+  background-color: #264653;
+  width: 100%;
+}
+.hero {
+  padding-top: 5rem;
+}
+.hr {
+  margin: 0 570px;
+}
+
+.feature-img-gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.happy-clients img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.fas {
+  color: #e77c40;
+}
+.fab {
+  margin: 5px;
+}
+.far {
+  color: #e77c40;
+}
+.client-name {
+  color: #23a6f0;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.client-designation {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.newsletter {
+  background-image: url("../images/home-13-1920x800.jpg");
+  height: 500px;
+  margin-top: 20px;
+  width: 100vh;
+}
+.carousel-item img {
+  height: 200px;
+  width: 200px;
+}
+.brands {
+  text-align: center;
+  background-color: #beb5b4;
+}
+.hr-brand {
+  margin: 0 570px;
+}
+.hr-brand::after {
+  padding-bottom: 20px;
+}
+.footer {
+  background-color: #0b0d17;
+  padding-top: 50px;
+}
+
+.footer-item {
+  padding: 0 10px;
+  font-weight: bold;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+  .header-img img {
+    width: 400px;
+  }
+}
